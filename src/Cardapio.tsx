@@ -47,7 +47,7 @@ function Cardapio(): React.JSX.Element {
             <StatusBar backgroundColor="#00CED1" barStyle='light-content' />
             <View style={styles.header}>
                 <Text style={styles.headerText} >𝓐𝓻𝓸𝓶𝓪 𝓮 𝓼𝓪𝓫𝓸𝓻𝓮𝓼</Text>
-                <Text style={styles.headerText}>𝐂𝐀𝐑𝐃𝐀𝐏𝐈𝐎</Text>
+                <Text style={styles.Textocima}>𝐂𝐀𝐑𝐃𝐀𝐏𝐈𝐎</Text>
             </View>
             <FlatList
                 data={dados}
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
 
     },
     headerText: {
-        fontSize: 20,
+        fontSize: 25,
         fontWeight: 'bold',
         color: 'white'
 
@@ -138,7 +138,12 @@ const styles = StyleSheet.create({
     },
     Textovalor:{
         fontSize:15
+    },
+    Textocima:{
+        fontSize:20,
+        color: 'white'
     }
+    
 })
 
 export default Cardapio;
