@@ -36,6 +36,10 @@ const renderItem = ({ item }: { item: MenuItem }) => (
         <Text style={styles.Textovalor}>{item.valor}</Text>
         <Text>{item.ingredientes}</Text>
         <Image source={item.image} style={styles.images}/>
+        <TouchableOpacity>
+                    <Image source={require('./assets/images/pedidos.webp')}
+                        style={styles.footerIcon} />
+                </TouchableOpacity>
         
     </TouchableOpacity>
 );
