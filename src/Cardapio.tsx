@@ -10,13 +10,13 @@ interface MenuItem {
 }
 
 const dados: MenuItem[] = [
-    { id: "1", nome: "𝑴𝒂𝒄𝒂𝒓𝒓𝒂̃𝒐 𝒄𝒂𝒓𝒃𝒐𝒏𝒂𝒓𝒂", valor: "45,00", ingredientes: "macarrão espaguete,bacon em cubos,vinho branco,ovos,gemas,queijo parmasao.", image: require('./assets/images/carbonara.jpg') },
-    { id: "2", nome: "𝑴𝒂𝒄𝒂𝒓𝒓𝒂̃𝒐 𝒃𝒐𝒍𝒐𝒏𝒉𝒆𝒔𝒂", valor: "30,00", ingredientes: "macarrão espaguete,carne moida com molho de tomate,temperos.", image: require('./assets/images/bolonhesa.png') },
-    { id: "3", nome: "𝑪𝒂𝒎𝒂𝒓𝒂̃𝒐 𝒂 𝒎𝒊𝒍𝒂𝒏𝒆𝒔𝒂", valor: "68,00", ingredientes: "Camarão à milanesa com gergelim. Acompanha molho tártaro.", image: require('./assets/images/milanesa.jpeg') },
-    { id: "4", nome: "𝑬𝒔𝒑𝒂𝒈𝒖𝒆𝒕𝒆 𝒄𝒐𝒎 𝒄𝒂𝒎𝒂𝒓𝒐̃𝒆𝒔", valor: "45,00", ingredientes: " camarões com espaguete italiano, ervilhas, presunto e molho branco.",image: require('./assets/images/camaraomacarrao.jpeg') },
-    { id: "5", nome: "𝑷𝒊𝒄𝒂𝒏𝒉𝒂 𝒃𝒍𝒂𝒄𝒌 𝒂𝒏𝒈𝒖𝒔", valor: "95,00", ingredientes: "Picanha Black Angus (300g) Picanha da raça Angus, acompanhada de vinagrete, chimichurri, farofa amarela, mandioca cozida ze arroz biro biro.",image: require('./assets/images/picanha.jpeg') },
-    { id: "6", nome: "𝑩𝒂𝒄𝒂𝒍𝒉𝒂𝒖 𝒂 𝒍𝒂𝒈𝒂𝒓𝒆𝒊𝒓𝒐", valor: "65,00", ingredientes: "Lombo de bacalhau assado no forno com azeite, alho confitado, cebola, ovos, tomate, azeitona azapa, batata, abóbora e brócolis. Acompanha arroz com brócolis.",image: require('./assets/images/bacalhau.jpeg') },
-    { id: "7", nome: "𝑷𝒂𝒆𝒍𝒍𝒂 𝑪𝒂𝒍𝒅𝒐𝒔𝒂", valor: "70,00", ingredientes: "Arroz caldoso com camarão, lula, polvo, peixe e mexilhão, refogado com pimentões, ervilha, especiarias e um leve toque de açafrão. Servidos na paellera. Rico em sabor e apresentação.",image: require('./assets/images/paella.jpeg') },
+    { id: "1", nome: "𝑴𝒂𝒄𝒂𝒓𝒓𝒂̃𝒐 𝒄𝒂𝒓𝒃𝒐𝒏𝒂𝒓𝒂", valor: "R$45,00", ingredientes: "macarrão espaguete,bacon em cubos,vinho branco,ovos,gemas,queijo parmasao.", image: require('./assets/images/carbonara.jpg') },
+    { id: "2", nome: "𝑴𝒂𝒄𝒂𝒓𝒓𝒂̃𝒐 𝒃𝒐𝒍𝒐𝒏𝒉𝒆𝒔𝒂", valor: "R$30,00", ingredientes: "macarrão espaguete,carne moida com molho de tomate,temperos.", image: require('./assets/images/bolonhesa.png') },
+    { id: "3", nome: "𝑪𝒂𝒎𝒂𝒓𝒂̃𝒐 𝒂 𝒎𝒊𝒍𝒂𝒏𝒆𝒔𝒂", valor: "R$68,00", ingredientes: "Camarão à milanesa com gergelim. Acompanha molho tártaro.", image: require('./assets/images/milanesa.jpeg') },
+    { id: "4", nome: "𝑬𝒔𝒑𝒂𝒈𝒖𝒆𝒕𝒆 𝒄𝒐𝒎 𝒄𝒂𝒎𝒂𝒓𝒐̃𝒆𝒔", valor: "R$45,00", ingredientes: " camarões com espaguete italiano, ervilhas, presunto e molho branco.",image: require('./assets/images/camaraomacarrao.jpeg') },
+    { id: "5", nome: "𝑷𝒊𝒄𝒂𝒏𝒉𝒂 𝒃𝒍𝒂𝒄𝒌 𝒂𝒏𝒈𝒖𝒔", valor: "R$95,00", ingredientes: "Picanha Black Angus (300g) Picanha da raça Angus, acompanhada de vinagrete, chimichurri, farofa amarela, mandioca cozida ze arroz biro biro.",image: require('./assets/images/picanha.jpeg') },
+    { id: "6", nome: "𝑩𝒂𝒄𝒂𝒍𝒉𝒂𝒖 𝒂 𝒍𝒂𝒈𝒂𝒓𝒆𝒊𝒓𝒐", valor: "R$65,00", ingredientes: "Lombo de bacalhau assado no forno com azeite, alho confitado, cebola, ovos, tomate, azeitona azapa, batata, abóbora e brócolis. Acompanha arroz com brócolis.",image: require('./assets/images/bacalhau.jpeg') },
+    { id: "7", nome: "𝑷𝒂𝒆𝒍𝒍𝒂 𝑪𝒂𝒍𝒅𝒐𝒔𝒂", valor: "R$70,00", ingredientes: "Arroz caldoso com camarão, lula, polvo, peixe e mexilhão, refogado com pimentões, ervilha, especiarias e um leve toque de açafrão. Servidos na paellera. Rico em sabor e apresentação.",image: require('./assets/images/paella.jpeg') },
     { id: "8", nome: "𝑪𝒂𝒎𝒂𝒓𝒂̃𝒐 𝑩𝒓𝒂𝒔𝒊𝒍𝒆𝒊𝒓𝒊𝒏𝒉𝒐", valor: "R$80,00", ingredientes: "Camarões empanados em farinha panko sobre delicioso arroz cremoso de moqueca. Acompanha batata palha.",image: require('./assets/images/camaraobrasileiro.jpeg')},
     { id: "9", nome: "𝑭𝒊𝒍𝒆 𝒄𝒐𝒎 𝒇𝒓𝒊𝒕𝒂𝒔", valor: "R$65,00", ingredientes: "Cubos de filé, refogado com cebola roxa e molho barbecue. Acompanha batata frita.",image: require('./assets/images/file.jpeg') },
     { id: "10", nome: "𝑭𝒓𝒂𝒏𝒈𝒐 𝑪𝒓𝒊𝒔𝒑𝒚", valor: "R$35,00", ingredientes: "Acompanhado de Arroz Branco, Feijão Fradinho, Batata Chips e Vinagrete.",image: require('./assets/images/frangocrispy.jpeg') },
@@ -47,7 +47,7 @@ function Cardapio(): React.JSX.Element {
             <StatusBar backgroundColor="#00CED1" barStyle='light-content' />
             <View style={styles.header}>
                 <Text style={styles.headerText} >𝓐𝓻𝓸𝓶𝓪 𝓮 𝓼𝓪𝓫𝓸𝓻𝓮𝓼</Text>
-                <Text style={styles.Textocima}>𝐂𝐀𝐑𝐃𝐀𝐏𝐈𝐎</Text>
+                <Text style={styles.Textocima}>𝐂𝐀𝐑𝐃𝐀𝐏𝐈𝐎 🍴</Text>
             </View>
             <FlatList
                 data={dados}
@@ -93,7 +93,10 @@ const styles = StyleSheet.create({
         backgroundColor: '#00CED1',
         padding: 20,
         marginVertical: 8,
-        marginHorizontal: 16
+        marginHorizontal: 16,
+        borderRadius:15,
+        borderColor:'black',
+        borderWidth:4
 
     },
     header: {
@@ -104,7 +107,7 @@ const styles = StyleSheet.create({
 
     },
     headerText: {
-        fontSize: 25,
+        fontSize: 27,
         fontWeight: 'bold',
         color: 'white'
 
@@ -134,10 +137,14 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     Texto1: {
-        fontSize:20
+        fontSize:20,
+        borderBottomWidth:2,
+        borderBottomRightRadius:-200,
+        borderBottomColor:'white'
     },
     Textovalor:{
-        fontSize:15
+        fontSize:15,
+        color:'white'
     },
     Textocima:{
         fontSize:20,
