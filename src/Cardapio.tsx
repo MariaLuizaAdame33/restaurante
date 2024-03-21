@@ -33,7 +33,7 @@ const dados: MenuItem[] = [
 const renderItem = ({ item }: { item: MenuItem }) => (
     <TouchableOpacity style={styles.item}>
         <Text style={styles.Texto1}>{item.nome}</Text>
-        <Text>{item.valor}</Text>
+        <Text style={styles.Textovalor}>{item.valor}</Text>
         <Text>{item.ingredientes}</Text>
         <Image source={item.image} style={styles.images}/>
         
@@ -46,7 +46,7 @@ function Cardapio(): React.JSX.Element {
             <ImageBackground source={require('./assets/images/fundo.jpg')} resizeMode="cover" style={styles.imagebackground}>
             <StatusBar backgroundColor="#00CED1" barStyle='light-content' />
             <View style={styles.header}>
-                <Text style={styles.headerText}>𝓐𝓻𝓸𝓶𝓪 𝓮 𝓼𝓪𝓫𝓸𝓻𝓮𝓼</Text>
+                <Text style={styles.headerText} >𝓐𝓻𝓸𝓶𝓪 𝓮 𝓼𝓪𝓫𝓸𝓻𝓮𝓼</Text>
                 <Text style={styles.headerText}>𝐂𝐀𝐑𝐃𝐀𝐏𝐈𝐎</Text>
             </View>
             <FlatList
@@ -135,6 +135,9 @@ const styles = StyleSheet.create({
     },
     Texto1: {
         fontSize:20
+    },
+    Textovalor:{
+        fontSize:15
     }
 })
 
